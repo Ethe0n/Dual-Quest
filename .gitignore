@@ -1,0 +1,11 @@
+Dual_Quest/cocos2d/
+Dual_Quest/proj.android/
+Dual_Quest/proj.android-studio/
+Dual_Quest/proj.linux/
+Dual_Quest/proj.tizen/
+Dual_Quest/proj.win10/
+Dual_Quest/proj.win8.1-universal/
+Dual_Quest/proj.ios_mac/
+Dual_Quest/proj.win32/
+Dual_Quest/.cocos-project.json
+Dual_Quest/CMakeLists.txt
