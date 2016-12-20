@@ -14,8 +14,9 @@ public :
 	void optionButtonCallback(cocos2d::Ref* pSender);
 	void exitButtonCallback(cocos2d::Ref* pSender);
 private :
-	cocos2d::MenuItemSprite* startButton;
-	cocos2d::MenuItemSprite* loadButton;
-	cocos2d::MenuItemSprite* optionButton;
-	cocos2d::MenuItemSprite* exitButton;
+	cocos2d::MenuItemSprite*	startButton;
+	cocos2d::MenuItemSprite*	loadButton;
+	cocos2d::MenuItemSprite*	optionButton;
+	cocos2d::MenuItemSprite*	exitButton;
+	cocos2d::Menu*				menu;
 };

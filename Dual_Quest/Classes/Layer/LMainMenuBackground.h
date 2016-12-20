@@ -9,5 +9,5 @@ public :
 
 	virtual bool init();
 private :
-
+	cocos2d::Sprite* background;
 };
