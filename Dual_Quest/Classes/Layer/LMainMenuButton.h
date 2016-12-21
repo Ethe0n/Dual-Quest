@@ -1,12 +1,12 @@
 #pragma once
 
 #include "cocos2d.h"
+#include "CustomButton.h"
 
 class LMainMenuButton : public cocos2d::Layer
 {
 public :
 	LMainMenuButton();
-
 	virtual bool init();
 
 	void startButtonCallback(cocos2d::Ref* pSender);
@@ -14,9 +14,11 @@ public :
 	void optionButtonCallback(cocos2d::Ref* pSender);
 	void exitButtonCallback(cocos2d::Ref* pSender);
 private :
-	cocos2d::MenuItemSprite*	startButton;
-	cocos2d::MenuItemSprite*	loadButton;
-	cocos2d::MenuItemSprite*	optionButton;
-	cocos2d::MenuItemSprite*	exitButton;
-	cocos2d::Menu*				menu;
+	CustomButton*	startButton;
+	CustomButton*	loadButton;
+	CustomButton*	optionButton;
+	CustomButton*	exitButton;
+	cocos2d::Menu*	menu;
+	cocos2d::Layer*	loadLayer;
+	cocos2d::Layer*	optionLayer;
 };

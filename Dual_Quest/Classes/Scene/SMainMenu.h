@@ -8,7 +8,7 @@ public :
 	SMainMenu();
 
 	virtual bool init();
-
+	void test() {}
 private :
 	cocos2d::Layer* mainButtonLayer;
 	cocos2d::Layer* mainBackgroundLayer;

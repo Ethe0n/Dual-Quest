@@ -2,12 +2,12 @@
 
 #include "cocos2d.h"
 
-class LMainMenuOption : public cocos2d::Layer
+class SGame : public cocos2d::Scene
 {
 public :
-	LMainMenuOption();
+	SGame();
 
 	virtual bool init();
 private :
-	
+
 };
